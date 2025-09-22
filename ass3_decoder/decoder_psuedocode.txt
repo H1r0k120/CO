@@ -1,0 +1,16 @@
+#psuedocode for decoder
+
+void decode(int address){
+    n = input(adress)
+
+    nextMemory = input[17-48]   #the 3rd to 6th bytes
+    timesChar = input[49-56]    #the 7th byte
+    valueASCII = input[57-64]   #the 8th byte
+
+    for(int i = 0; i < timesChar; i++){
+        print(valueASCII)
+    }
+
+    decode(nexMemory)
+    
+} 
